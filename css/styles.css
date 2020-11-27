@@ -1,0 +1,183 @@
+:root {
+--accent-color:  #2196F3;
+--text-white-color: #ffffff;
+--text-dark-color: #212121;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+a {
+text-decoration: none;
+}
+ul {
+list-style: none;
+}
+/*HEADER*/
+.logo{
+font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color:var(--text-dark-color)
+}
+
+.web{
+color: var(--accent-color);
+}
+
+.navigation-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+ color: var(--accent-color);  
+}
+.header-contact {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+}
+.header-contacts {
+color: #757575;
+}
+.header-contacts:hover,
+.header-contacts:focus,
+.header-contact-mail {
+ color: var(--accent-color);  
+}
+/*END HEADER*/
+
+.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+/*HERO*/
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2F303A;
+}
+.undertitle{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.description,
+.specialty{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.button{
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.modal-btn{
+background-color: #2196F3;
+}
+
+.btn:hover,
+.btn:focus{
+background-color:#2196F3;
+color:#FFFFFF;
+}
+
+.button:hover,
+.button.focus{
+background-color:#2196F3;
+}
+/*END HERO*/
+
+/*TEAM*/
+.name-workers{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/*END TEAM*/
+
+/*CONTACT*/
+.footer,
+.hero{
+background-color:#2F303A;
+}
+
+.footer-contact{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nav{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+/*END CONTACT*/
+
+/*OUR WORKS*/
+.our-works{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.name-works{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.footer-logo{
+font-family: Raleway,sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: var(--text-white-color);
+}
+
+
+
+
+
+
+
+
